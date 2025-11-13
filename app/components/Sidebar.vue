@@ -8,7 +8,14 @@
         </NuxtLink>
       </div>
 
-      <nav>
+            <nav>
+        <h2 class=" text-blue-600 font-semibold mb-2 uppercase">• Home</h2>
+        <ul class="mb-8 space-y-2">
+            <li class="text-gray-600 hover:text-blue-600 cursor-pointer">
+                <NuxtLink>
+                    Home
+                </NuxtLink></li>
+        </ul>
         <h2 class=" text-blue-600 font-semibold mb-2 uppercase">• Pembelajaran</h2>
         <ul class="mb-8 space-y-2">
             <li class="text-gray-600 hover:text-blue-600 cursor-pointer">
@@ -31,7 +38,7 @@
         </ul>
 
         <h2 class="text-xs text-blue-600 font-semibold mb-2 uppercase text-blue-500">Settings</h2>
-        <ul class="space-y-2">
+        <ul class="space-y-2 ">
           <li class="text-gray-600 hover:text-blue-600 cursor-pointer">
             <NuxtLink>
                 Setting
