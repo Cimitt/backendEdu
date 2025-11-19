@@ -8,7 +8,7 @@
             Masuk untuk mengakses KelasMu
           </h1>
           <p class="text-[15px] mt-6 text-slate-600 leading-relaxed"><span class="font-semibold">Semua Orang Berhak Untuk Belajar -KelasMu.</span></p>
-          <p class="text-[15px] mt-6 lg:mt-12 text-slate-600">Belum memiliki akun? <a href="javascript:void(0);" class="text-blue-600 font-medium hover:underline ml-1">Daftar disini</a></p>
+          <p class="text-[15px] mt-6 lg:mt-12 text-slate-600">Belum memiliki akun? <NuxtLink to="/register" class="text-blue-600 font-medium hover:underline ml-1">Daftar disini</NuxtLink></p>
         </div>
 
         <form class="max-w-md lg:ml-auto w-full">
@@ -19,11 +19,11 @@
           <div class="space-y-6">
             <div>
               <label class='text-sm text-slate-900 font-medium mb-2 block'>Email</label>
-              <input name="email" type="email" required class="bg-slate-100 w-full text-sm text-slate-900 px-4 py-3 rounded-md outline-0 border border-gray-200 focus:border-blue-600 focus:bg-transparent" placeholder="Enter Email" />
+              <input v-model="email" type="email" required class="bg-slate-100 w-full text-sm text-slate-900 px-4 py-3 rounded-md outline-0 border border-gray-200 focus:border-blue-600 focus:bg-transparent" placeholder="Masukkan Email" />
             </div>
             <div>
               <label class='text-sm text-slate-900 font-medium mb-2 block'>Password</label>
-              <input name="password" type="password" required class="bg-slate-100 w-full text-sm text-slate-900 px-4 py-3 rounded-md outline-0 border border-gray-200 focus:border-blue-600 focus:bg-transparent" placeholder="Enter Password" />
+              <input v-model="password" type="password" required class="bg-slate-100 w-full text-sm text-slate-900 px-4 py-3 rounded-md outline-0 border border-gray-200 focus:border-blue-600 focus:bg-transparent" placeholder="Masukkan Password" />
             </div>
             <div class="flex flex-wrap items-center justify-between gap-4">
               <div class="text-sm">

@@ -16,14 +16,14 @@
             </p>
 
             <div class="mt-12 flex items-center justify-center flex-wrap gap-6">
-              <button
+              <NuxtLink
                 class="px-5 py-3 rounded-full text-base font-medium tracking-wide text-white border border-blue-700 bg-indigo-700 hover:bg-indigo-800 transition-all cursor-pointer">
-                Start Free Trial
-              </button>
-              <button
+                Coba Sekarang
+              </NuxtLink>
+              <NuxtLink
                 class="px-5 py-3 rounded-full text-base font-medium tracking-wide text-slate-900 border border-gray-300 bg-white hover:bg-gray-100 transition-all cursor-pointer">
-                How It Works
-              </button>
+                Pelajari Lebih Lanjut
+              </NuxtLink>
             </div>
           </div>
 

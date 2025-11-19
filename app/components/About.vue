@@ -11,13 +11,13 @@
             <button type="button" class="mt-6 px-5 py-2.5 rounded-full text-white text-sm tracking-wider font-medium border border-current outline-none bg-blue-700 hover:bg-blue-800 active:bg-blue-700 cursor-pointer">Get started</button>
           </div>
           <div class="aspect-[61/36]">
-            <img src="https://readymadeui.com/images/kpis-dashboard-img.webp" alt="Placeholder Image1" class="object-contain w-full h-full" />
+            <NuxtImg src="https://readymadeui.com/images/kpis-dashboard-img.webp" alt="Placeholder Image1" class="object-contain w-full h-full" />
           </div>
         </div>
 
         <div class="grid lg:grid-cols-2 gap-12">
           <div class="aspect-[61/36] max-lg:order-1">
-            <img src="https://readymadeui.com/images/kpi-img-3.webp" alt="Placeholder Image2" class="object-contain w-full h-full" />
+            <NuxtImg src="https://readymadeui.com/images/kpi-img-3.webp" alt="Placeholder Image2" class="object-contain w-full h-full" />
           </div>
           <div class="text-left">
             <h2 class="text-slate-900 text-xl font-semibold mb-4">Your Success, Our Commitment</h2>
@@ -37,13 +37,13 @@
             <button type="button" class="mt-6 px-5 py-2.5 rounded-full text-white text-sm tracking-wider font-medium border border-current outline-none bg-blue-700 hover:bg-blue-800 active:bg-blue-700 cursor-pointer">Get started</button>
           </div>
           <div class="aspect-[61/36]">
-            <img src="https://readymadeui.com/images/kpis-dashboard-img.webp" alt="Placeholder Image1" class="object-contain w-full h-full" />
+            <NuxtImg src="https://readymadeui.com/images/kpis-dashboard-img.webp" alt="Placeholder Image1" class="object-contain w-full h-full" />
           </div>
         </div>
 
         <div class="grid lg:grid-cols-2 gap-12">
           <div class="aspect-[61/36] max-lg:order-1">
-            <img src="https://readymadeui.com/images/kpi-img-3.webp" alt="Placeholder Image2" class="object-contain w-full h-full" />
+            <NuxtImg src="https://readymadeui.com/images/kpi-img-3.webp" alt="Placeholder Image2" class="object-contain w-full h-full" />
           </div>
           <div class="text-left">
             <h2 class="text-slate-900 text-xl font-semibold mb-4">Your Success, Our Commitment</h2>

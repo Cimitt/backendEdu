@@ -49,7 +49,7 @@ function saveQuiz() {
 
 <template>
   <div class="w-full h-full flex flex-col gap-4 p-4 overflow-y-auto">
-    <!-- daftar quiz -->
+
     <div class="space-y-3">
       <div
         v-for="(quiz, index) in quizzes"
@@ -62,21 +62,18 @@ function saveQuiz() {
       </div>
     </div>
 
-    <!-- panel properties -->
     <div v-if="selectedQuiz" class="bg-white p-4 rounded-xl shadow-inner border">
       <h2 class="text-lg font-bold mb-3 text-gray-700">
         Edit {{ selectedQuiz.title }}
       </h2>
 
-      <!-- pertanyaan -->
       <label class="block text-sm font-medium text-gray-700">Pertanyaan</label>
-      <input6
+      <input
         v-model="selectedQuiz.question"
         type="text"
         class="w-full mt-1 border rounded-lg p-2 mb-3 focus:ring-2 focus:ring-blue-400"
       />
 
-      <!-- pilihan jawaban -->
       <label class="block text-sm font-medium text-gray-700">Pilihan Jawaban</label>
       <div class="space-y-2 mt-1 mb-3">
         <div
@@ -107,7 +104,6 @@ function saveQuiz() {
         </button>
       </div>
 
-      <!-- Jawaban Benar -->
       <label class="block text-sm font-medium text-gray-700">Jawaban Benar</label>
       <select
         v-model="selectedQuiz.correct_answer"

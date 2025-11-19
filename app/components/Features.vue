@@ -1,5 +1,11 @@
+<script setup lang="ts">
+import Parallax from './Parallax.vue';
+
+</script>
+
 <template>
-  <div class="m-3">
+  <Parallax>
+    <div class="m-3 bg-white/70 backdrop-blur-md rounded-2xl p-10">
       <div class="grid lg:grid-cols-4 sm:grid-cols-2 gap-x-6 gap-y-12 lg:divide-x lg:divide-gray-300">
         <div class="text-center">
           <svg xmlns="http://www.w3.org/2000/svg" class="fill-blue-600 w-10 inline-block" viewBox="0 0 512 512">
@@ -31,5 +37,8 @@
           <h6 class="text-base text-slate-900 font-medium mt-2"></h6>
         </div>
       </div>
+    </div>
+  </Parallax>
+  <div class="m-3">
     </div>
 </template>

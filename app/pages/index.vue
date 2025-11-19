@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div class="bg-white text-gray-800">
+  <div class="bg-white">
       <Nav />
     <section id="home">
         <Greeting />

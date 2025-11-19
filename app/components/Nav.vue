@@ -1,7 +1,7 @@
 <template>
   <header class="fixed top-0 left-0 w-full bg-white/70 backdrop-blur-md shadow-sm z-50">
     <nav class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
-      <!-- Logo -->
+      
       <div class="flex items-center gap-2">
         <NuxtLink to="/" class="flex items-center gap-2">
           <Icon name="mdi:school" size="28" class="text-blue-600" />
@@ -9,25 +9,21 @@
         </NuxtLink>
       </div>
 
-      <!-- Menu -->
       <ul class="hidden md:flex items-center gap-8 text-gray-700 font-medium">
-        <li><a href="/#home" class="hover:text-blue-600 transition-colors">Beranda</a></li>
-        <li><a href="/#features" class="hover:text-blue-600 transition-colors">Fitur</a></li>
-        <li><a href="/#about" class="hover:text-blue-600 transition-colors">Tentang</a></li>
-        <li><a href="#contact" class="hover:text-blue-600 transition-colors">Kontak</a></li>
+        <li><NuxtLink to="/#home" class="hover:text-blue-600 transition-colors">Beranda</NuxtLink></li>
+        <li><NuxtLink to="/#features" class="hover:text-blue-600 transition-colors">Fitur</NuxtLink></li>
+        <li><NuxtLink to="/#about" class="hover:text-blue-600 transition-colors">Tentang</NuxtLink></li>
+        <li><NuxtLink to="#contact" class="hover:text-blue-600 transition-colors">Kontak</NuxtLink></li>
       </ul>
 
-      <!-- Button -->
       <div class="hidden md:block">
         <NuxtLink to="/loginas"
-          
           class="bg-blue-600 text-white px-5 py-2 rounded-lg shadow hover:bg-blue-700 transition-all"
         >
           Coba KelasMu
         </NuxtLink>
       </div>
 
-      <!-- Mobile Menu Button -->
       <button @click="toggleMenu" class="md:hidden">
         <Icon name="mdi:menu" size="28" class="text-gray-700" />
       </button>
