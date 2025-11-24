@@ -3,15 +3,15 @@
 
 <template>
   <div class="bg-white">
-      <Nav />
+    <Nav />
     <section id="home">
-        <Greeting />
+      <Greeting />
     </section>
     <section class="bg-white py-20 mx-8" id="features">
-        <Features />
+      <Features />
     </section>
-    <section class="py-20" id="about">
-      <div class="mx-8">
+    <section class="py-10" id="about">
+      <div>
         <About />
       </div>
     </section>
