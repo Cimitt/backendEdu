@@ -17,16 +17,21 @@
             <span class="text-blue-700">Pendidikan Masadepan</span>
           </h1>
           <p class="text-slate-600 text-base font-medium leading-relaxed">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum dolorum in omnis, fugit rerum esse nesciunt officiis nisi, cumque, hic dignissimos adipisci! Maiores debitis, quam quasi enim nemo aperiam repudiandae..
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum
+            dolorum in omnis, fugit rerum esse nesciunt officiis nisi, cumque,
+            hic dignissimos adipisci! Maiores debitis, quam quasi enim nemo
+            aperiam repudiandae..
           </p>
 
           <div class="mt-12 flex items-center justify-center flex-wrap gap-6">
-            <NuxtLink to="/loginas"
+            <NuxtLink
+              to="/loginas"
               class="px-5 py-3 rounded-full text-base font-medium tracking-wide text-white border border-blue-700 bg-indigo-700 hover:bg-indigo-800 transition-all cursor-pointer"
             >
               Coba Sekarang
             </NuxtLink>
-            <NuxtLink to="#about"
+            <NuxtLink
+              to="#about"
               class="px-5 py-3 rounded-full text-base font-medium tracking-wide text-slate-900 border border-gray-300 bg-white hover:bg-gray-100 transition-all cursor-pointer"
             >
               Pelajari Lebih Lanjut

@@ -28,6 +28,6 @@ onBeforeUnmount(() => {
 
 <template>
   <div class=" bg-black rounded-2xl overflow-hidden">
-    <video ref="videoPl" class="video-js vjs-big-play-centered w-full h-full" playsinline></video>
+    <video ref="videoPl" class="video-js vjs-big-play-centered" playsinline></video>
   </div>
 </template>

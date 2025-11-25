@@ -20,17 +20,10 @@
         </h2>
         <ul class="mb-8 space-y-2">
           <li class="text-gray-600 hover:text-blue-600 cursor-pointer">
-            <NuxtLink> Video Interaktif </NuxtLink>
+            <NuxtLink> Kelas </NuxtLink>
           </li>
           <li class="text-gray-600 hover:text-blue-600 cursor-pointer">
-            <NuxtLink> Quiz Interaktif </NuxtLink>
-          </li>
-        </ul>
-
-        <h2 class="text-blue-600 font-semibold mb-2 uppercase">• Monitoring</h2>
-        <ul class="mb-6 space-y-2">
-          <li class="text-gray-600 hover:text-blue-600 cursor-pointer">
-            <NuxtLink> Monitoring Siswa </NuxtLink>
+            <NuxtLink>  </NuxtLink>
           </li>
         </ul>
 

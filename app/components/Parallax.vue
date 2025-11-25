@@ -1,5 +1,4 @@
 <script setup>
-
 const target = ref(null);
 const offset = ref(0);
 
@@ -27,5 +26,3 @@ onMounted(() => {
     </div>
   </section>
 </template>
-
-
