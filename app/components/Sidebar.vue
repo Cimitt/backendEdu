@@ -1,5 +1,5 @@
 <template>
-  <aside class="w-64 bg-white border-r border-gray-200 p-6 flex flex-col justify-between hidden md:block">
+  <aside class="md:w-64 bg-white border-r border-gray-200 p-6 flex flex-col justify-between hidden md:block">
     <div>
       <div class="flex items-center space-x-2 mb-8">
         <NuxtLink to="/" class="flex items-center gap-2">

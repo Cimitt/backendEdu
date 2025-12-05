@@ -1,18 +1,16 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="p-4 w-full">
-    <ul
-      class="w-max flex gap-2 relative before:absolute before:w-full before:bottom-0 before:border-b-2 before:border-gray-200"
-    >
+  <div class="p-4">
+    <ul class="flex gap-2 max-w-full ">
       <li
         id="homeTab"
-        class="tab relative text-blue-600 hover:text-blue-600 flex items-center justify-center font-medium text-[15px] py-3.5 px-5 border-b-2 border-blue-600 cursor-pointer"
+        class="tab relative min-w-0 flex-shrink text-blue-600 hover:text-blue-600 flex items-center justify-center font-medium text-[15px] py-3.5 px-5 border-b-2 border-blue-600 cursor-pointer"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="currentColor"
-          class="w-4 mr-3"
+          class="w-4 mr-3 max-[449px]:hidden"
           viewBox="0 0 511 511.999"
         >
           <path
@@ -24,12 +22,12 @@
       </li>
       <li
         id="settingTab"
-        class="tab relative text-slate-600 hover:text-blue-600 flex items-center justify-center font-medium text-[15px] py-3.5 px-5 border-b-2 border-gray-200 cursor-pointer"
+        class="tab relative min-w-0 flex-shrink text-slate-600 hover:text-blue-600 flex items-center justify-center font-medium text-[15px] py-3.5 px-5 border-b-2 border-gray-200 cursor-pointer"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           stroke="currentColor"
-          class="w-4 mr-3"
+          class="w-4 mr-3 max-[449px]:hidden"
           viewBox="0 0 682.667 682.667"
         >
           <defs>
@@ -53,12 +51,12 @@
       </li>
       <li
         id="profileTab"
-        class="tab relative text-slate-600 hover:text-blue-600 flex items-center justify-center font-medium text-[15px] py-3.5 px-5 border-b-2 border-gray-200 cursor-pointer"
+        class="tab relative min-w-0 flex-shrink text-slate-600 hover:text-blue-600 flex items-center justify-center font-medium text-[15px] py-3.5 px-5 border-b-2 border-gray-200 cursor-pointer"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="currentColor"
-          class="w-4 mr-3"
+          class="w-4 mr-3 max-[449px]:hidden"
           viewBox="0 0 512 512"
         >
           <path
