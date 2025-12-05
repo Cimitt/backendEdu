@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme {
+  --breakpoint-mobile: 48rem;
+  --breakpoint-mobile-m: 26.5rem;
+}

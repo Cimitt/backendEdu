@@ -15,6 +15,10 @@ export default defineNuxtConfig({
     "motion-v/nuxt",
   ],
 
+   css: [
+    '~/assets/robe.css'
+  ],
+
   // ⬅ ENV Nuxt untuk base URL API Laravel
   runtimeConfig: {
     public: {

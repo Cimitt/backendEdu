@@ -48,7 +48,7 @@ function saveQuiz() {
 </script>
 
 <template>
-  <div class="w-full h-full flex flex-col gap-4 p-4 overflow-y-auto">
+  <div class="w-full h-full flex flex-col gap-4 p-4 overflow-x-hidden max-w-full">
     <div class="space-y-3">
       <div v-for="(quiz, index) in quizzes" :key="index"
         class="rounded-xl p-4 text-white font-semibold cursor-pointer transition-all duration-300 hover:scale-[1.02]"

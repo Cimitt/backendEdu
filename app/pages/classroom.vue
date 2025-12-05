@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="flex min-h-screen bg-white min-h-screen max-w-screen mx-auto overflow-hidden">
+  <div class="flex min-h-screen bg-white mx-auto">
     <main class="flex-1 flex flex-col p-4">
       <header class="flex justify-between items-center mb-4 mx-4">
         <div class="flex items-center gap-2">
@@ -20,8 +20,8 @@
         </div>
       </header>
 
-      <section class="flex-1 flex flex-col md:flex-row gap-8">
-        <div class="flex-1 rounded-2xl overflow-hidden">
+      <section class="flex-1 flex flex-col lg:flex-row gap-8">
+        <div class=" rounded-2xl w-full max-w-full">
           <div>
             <VideoPlayer :src="'https://www.youtube.com/watch?v=dQw4w9WgXcQ'" />
           </div>
@@ -31,8 +31,8 @@
         </div>
         
         <div
-          class="flex flex-col justify-between w-full md:w-1/3 h-full bg-gray-50 border-l border-gray-200 rounded-xl items-center">
-          <div>
+          class="flex flex-col justify-between w-full lg:w-1/3 h-full bg-gray-50 border-l border-gray-200 rounded-xl items-center">
+          <div class="">
             <ContentList />
             <div class="flex flex-row gap-5 justify-center">
               <NuxtLink

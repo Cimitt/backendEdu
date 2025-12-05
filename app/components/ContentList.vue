@@ -1,13 +1,13 @@
 <template>
-  <div class="max-w-3xl mx-auto p-6">
+  <div class="w-full mx-auto p-6">
     <h2 class="text-2xl font-semibold mb-6">Materi</h2>
 
-    <div class="space-y-6">
+    <div class="lg:space-y-6 flex flex-col gap-5 max-lg:flex-row max-lg:flex-nowrap lg:gap-0">
 
       <div
         v-for="event in events"
         :key="event.id"
-        class="bg-white rounded-xl shadow p-6 flex flex-col md:flex-row justify-between"
+        class="bg-white rounded-xl shadow p-6 flex flex-col justify-center w-150"
       >
         <div class="flex items-start gap-4">
 
@@ -23,7 +23,7 @@
 
         <!-- Add to calendar button -->
         <button
-          class="mt-4 md:mt-0 self-start md:self-center px-4 py-2 border rounded-lg hover:bg-gray-50 flex items-center gap-2 transition"
+          class="mt-4 self-start md:self-center px-4 py-2 border rounded-lg hover:bg-gray-50 flex items-center gap-2 transition"
         >
           <span>+</span> Submit
         </button>
